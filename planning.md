@@ -80,9 +80,9 @@ The LLM gets slightly more weight because it captures broader semantic patterns,
 
 Thresholds:
 
-combined_score >= 0.75: likely AI-generated
-combined_score <= 0.35: likely human-written
-0.36 to 0.74: uncertain
+combined_score >= 0.70: likely AI-generated
+combined_score <= 0.25: likely human-written
+0.26 to 0.69: uncertain
 
 A score near 0.5 means the system does not have enough evidence to make a confident attribution. Because false positives are harmful for creators, borderline scores should produce an uncertain label instead of accusing the creator of using AI.
 
