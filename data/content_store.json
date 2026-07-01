@@ -28,7 +28,7 @@
     },
     "status": "under_review",
     "appeal_reasoning": "I wrote this myself. I am appealing because the system may have interpreted my formal wording or repeated phrasing as AI-generated.",
-    "appealed_at": "2026-07-01T01:32:38.567213+00:00"
+    "appealed_at": "2026-07-01T02:39:44.562790+00:00"
   },
   "948f8f32-676d-442b-9beb-5f1d9de59459": {
     "content_id": "948f8f32-676d-442b-9beb-5f1d9de59459",
@@ -409,6 +409,412 @@
   },
   "546dab24-b177-42bc-8370-ef4481bca232": {
     "content_id": "546dab24-b177-42bc-8370-ef4481bca232",
+    "creator_id": "ratelimit-test",
+    "text_length": 63,
+    "attribution": "likely_human",
+    "confidence": 0.848,
+    "label": "This content appears likely to be human-written. Our system found stronger signals of original human authorship, though automated detection is not perfect.",
+    "signals": {
+      "llm": {
+        "score": 0.0,
+        "reasoning": "The text is brief and lacks complexity, but its straightforward and purposeful nature suggests human authorship."
+      },
+      "stylometric": {
+        "score": 0.38,
+        "metrics": {
+          "type_token_ratio": 1.0,
+          "sentence_length_variance": 0,
+          "punctuation_density": 0.0,
+          "ai_phrase_hits": 0,
+          "vocab_score": 0.2,
+          "variance_score": 0.8,
+          "phrase_score": 0.0,
+          "punctuation_score": 0.3
+        }
+      },
+      "combined_score": 0.152
+    },
+    "status": "classified"
+  },
+  "96e00afb-49fe-4414-9d4f-fe53c9e53724": {
+    "content_id": "96e00afb-49fe-4414-9d4f-fe53c9e53724",
+    "creator_id": "clean-human-1",
+    "text_length": 293,
+    "attribution": "likely_human",
+    "confidence": 0.812,
+    "label": "This content appears likely to be human-written. Our system found stronger signals of original human authorship, though automated detection is not perfect.",
+    "signals": {
+      "llm": {
+        "score": 0.2,
+        "reasoning": "The text features informal language, personal opinions, and a conversational tone, which are characteristic of human-written reviews. The use of colloquial expressions and emotional responses also suggest a human author."
+      },
+      "stylometric": {
+        "score": 0.17,
+        "metrics": {
+          "type_token_ratio": 0.875,
+          "sentence_length_variance": 45.2,
+          "punctuation_density": 0.018,
+          "ai_phrase_hits": 0,
+          "vocab_score": 0.2,
+          "variance_score": 0.2,
+          "phrase_score": 0.0,
+          "punctuation_score": 0.3
+        }
+      },
+      "combined_score": 0.188
+    },
+    "status": "classified"
+  },
+  "620c70bf-7ae9-410d-b745-290f9ec9115d": {
+    "content_id": "620c70bf-7ae9-410d-b745-290f9ec9115d",
+    "creator_id": "clean-ai-1",
+    "text_length": 715,
+    "attribution": "likely_ai",
+    "confidence": 0.772,
+    "label": "This content appears likely to be AI-generated. Our system found multiple signals associated with AI-written text, but this decision may be appealed by the creator.",
+    "signals": {
+      "llm": {
+        "score": 0.9,
+        "reasoning": "The text features overly formal and generic language, lacks personal touch, and includes repetitive phrases, which are common characteristics of AI-generated content."
+      },
+      "stylometric": {
+        "score": 0.58,
+        "metrics": {
+          "type_token_ratio": 0.837,
+          "sentence_length_variance": 6.96,
+          "punctuation_density": 0.109,
+          "ai_phrase_hits": 9,
+          "vocab_score": 0.2,
+          "variance_score": 0.8,
+          "phrase_score": 1.0,
+          "punctuation_score": 0.3
+        }
+      },
+      "combined_score": 0.772
+    },
+    "status": "classified"
+  },
+  "688a2a06-2f90-4d91-b63a-497b57718a2c": {
+    "content_id": "688a2a06-2f90-4d91-b63a-497b57718a2c",
+    "creator_id": "clean-ai-2",
+    "text_length": 678,
+    "attribution": "likely_ai",
+    "confidence": 0.772,
+    "label": "This content appears likely to be AI-generated. Our system found multiple signals associated with AI-written text, but this decision may be appealed by the creator.",
+    "signals": {
+      "llm": {
+        "score": 0.9,
+        "reasoning": "The text features overly formal and repetitive language, lacks personal touch, and includes buzzwords like 'paradigm shift' and 'stakeholder collaboration', which are common in AI-generated content."
+      },
+      "stylometric": {
+        "score": 0.58,
+        "metrics": {
+          "type_token_ratio": 0.758,
+          "sentence_length_variance": 5.44,
+          "punctuation_density": 0.11,
+          "ai_phrase_hits": 9,
+          "vocab_score": 0.2,
+          "variance_score": 0.8,
+          "phrase_score": 1.0,
+          "punctuation_score": 0.3
+        }
+      },
+      "combined_score": 0.772
+    },
+    "status": "classified"
+  },
+  "7a785cde-04a1-46c1-83bf-f047d6449cb7": {
+    "content_id": "7a785cde-04a1-46c1-83bf-f047d6449cb7",
+    "creator_id": "clean-uncertain-1",
+    "text_length": 350,
+    "attribution": "uncertain",
+    "confidence": 0.784,
+    "label": "We could not confidently determine whether this content was human-written or AI-generated. This label is intentionally cautious because automated detection can be wrong.",
+    "signals": {
+      "llm": {
+        "score": 0.2,
+        "reasoning": "The text features a personal anecdote, nuanced reflection, and a balanced perspective, which are characteristic of human writing."
+      },
+      "stylometric": {
+        "score": 0.41,
+        "metrics": {
+          "type_token_ratio": 0.847,
+          "sentence_length_variance": 6.889,
+          "punctuation_density": 0.068,
+          "ai_phrase_hits": 0,
+          "vocab_score": 0.2,
+          "variance_score": 0.8,
+          "phrase_score": 0.0,
+          "punctuation_score": 0.6
+        }
+      },
+      "combined_score": 0.284
+    },
+    "status": "classified"
+  },
+  "d52d0a96-1cfd-4bb3-a223-6868460a1e47": {
+    "content_id": "d52d0a96-1cfd-4bb3-a223-6868460a1e47",
+    "creator_id": "ratelimit-test",
+    "text_length": 63,
+    "attribution": "likely_human",
+    "confidence": 0.848,
+    "label": "This content appears likely to be human-written. Our system found stronger signals of original human authorship, though automated detection is not perfect.",
+    "signals": {
+      "llm": {
+        "score": 0.0,
+        "reasoning": "The text is brief and lacks complexity, but its straightforward and purposeful nature suggests human authorship."
+      },
+      "stylometric": {
+        "score": 0.38,
+        "metrics": {
+          "type_token_ratio": 1.0,
+          "sentence_length_variance": 0,
+          "punctuation_density": 0.0,
+          "ai_phrase_hits": 0,
+          "vocab_score": 0.2,
+          "variance_score": 0.8,
+          "phrase_score": 0.0,
+          "punctuation_score": 0.3
+        }
+      },
+      "combined_score": 0.152
+    },
+    "status": "classified"
+  },
+  "4a2acae7-c922-4f7c-91da-5cdc35fe09f6": {
+    "content_id": "4a2acae7-c922-4f7c-91da-5cdc35fe09f6",
+    "creator_id": "ratelimit-test",
+    "text_length": 63,
+    "attribution": "likely_human",
+    "confidence": 0.848,
+    "label": "This content appears likely to be human-written. Our system found stronger signals of original human authorship, though automated detection is not perfect.",
+    "signals": {
+      "llm": {
+        "score": 0.0,
+        "reasoning": "The text is brief and lacks complexity, but its straightforward and purposeful nature suggests human authorship."
+      },
+      "stylometric": {
+        "score": 0.38,
+        "metrics": {
+          "type_token_ratio": 1.0,
+          "sentence_length_variance": 0,
+          "punctuation_density": 0.0,
+          "ai_phrase_hits": 0,
+          "vocab_score": 0.2,
+          "variance_score": 0.8,
+          "phrase_score": 0.0,
+          "punctuation_score": 0.3
+        }
+      },
+      "combined_score": 0.152
+    },
+    "status": "classified"
+  },
+  "8b362f80-084b-4803-ba52-73c93168dafb": {
+    "content_id": "8b362f80-084b-4803-ba52-73c93168dafb",
+    "creator_id": "ratelimit-test",
+    "text_length": 63,
+    "attribution": "likely_human",
+    "confidence": 0.848,
+    "label": "This content appears likely to be human-written. Our system found stronger signals of original human authorship, though automated detection is not perfect.",
+    "signals": {
+      "llm": {
+        "score": 0.0,
+        "reasoning": "The text is brief and lacks complexity, but its straightforward and purposeful nature suggests human authorship."
+      },
+      "stylometric": {
+        "score": 0.38,
+        "metrics": {
+          "type_token_ratio": 1.0,
+          "sentence_length_variance": 0,
+          "punctuation_density": 0.0,
+          "ai_phrase_hits": 0,
+          "vocab_score": 0.2,
+          "variance_score": 0.8,
+          "phrase_score": 0.0,
+          "punctuation_score": 0.3
+        }
+      },
+      "combined_score": 0.152
+    },
+    "status": "classified"
+  },
+  "4add79b8-77ca-462b-bd58-ed3ce06a3cf2": {
+    "content_id": "4add79b8-77ca-462b-bd58-ed3ce06a3cf2",
+    "creator_id": "ratelimit-test",
+    "text_length": 63,
+    "attribution": "likely_human",
+    "confidence": 0.848,
+    "label": "This content appears likely to be human-written. Our system found stronger signals of original human authorship, though automated detection is not perfect.",
+    "signals": {
+      "llm": {
+        "score": 0.0,
+        "reasoning": "The text is brief and lacks complexity, but its straightforward and purposeful nature suggests human authorship."
+      },
+      "stylometric": {
+        "score": 0.38,
+        "metrics": {
+          "type_token_ratio": 1.0,
+          "sentence_length_variance": 0,
+          "punctuation_density": 0.0,
+          "ai_phrase_hits": 0,
+          "vocab_score": 0.2,
+          "variance_score": 0.8,
+          "phrase_score": 0.0,
+          "punctuation_score": 0.3
+        }
+      },
+      "combined_score": 0.152
+    },
+    "status": "classified"
+  },
+  "c2a768e8-b3f7-46aa-9b6e-050f507b2fef": {
+    "content_id": "c2a768e8-b3f7-46aa-9b6e-050f507b2fef",
+    "creator_id": "ratelimit-test",
+    "text_length": 63,
+    "attribution": "likely_human",
+    "confidence": 0.848,
+    "label": "This content appears likely to be human-written. Our system found stronger signals of original human authorship, though automated detection is not perfect.",
+    "signals": {
+      "llm": {
+        "score": 0.0,
+        "reasoning": "The text is brief and lacks complexity, but its straightforward and purposeful nature suggests human authorship."
+      },
+      "stylometric": {
+        "score": 0.38,
+        "metrics": {
+          "type_token_ratio": 1.0,
+          "sentence_length_variance": 0,
+          "punctuation_density": 0.0,
+          "ai_phrase_hits": 0,
+          "vocab_score": 0.2,
+          "variance_score": 0.8,
+          "phrase_score": 0.0,
+          "punctuation_score": 0.3
+        }
+      },
+      "combined_score": 0.152
+    },
+    "status": "classified"
+  },
+  "36cc8a7d-5735-46e4-8ca9-de5582fbcf6d": {
+    "content_id": "36cc8a7d-5735-46e4-8ca9-de5582fbcf6d",
+    "creator_id": "ratelimit-test",
+    "text_length": 63,
+    "attribution": "likely_human",
+    "confidence": 0.848,
+    "label": "This content appears likely to be human-written. Our system found stronger signals of original human authorship, though automated detection is not perfect.",
+    "signals": {
+      "llm": {
+        "score": 0.0,
+        "reasoning": "The text is brief and lacks complexity, but its straightforward and purposeful nature suggests human authorship."
+      },
+      "stylometric": {
+        "score": 0.38,
+        "metrics": {
+          "type_token_ratio": 1.0,
+          "sentence_length_variance": 0,
+          "punctuation_density": 0.0,
+          "ai_phrase_hits": 0,
+          "vocab_score": 0.2,
+          "variance_score": 0.8,
+          "phrase_score": 0.0,
+          "punctuation_score": 0.3
+        }
+      },
+      "combined_score": 0.152
+    },
+    "status": "classified"
+  },
+  "6af98647-d54d-47fd-8f7f-e6091ca13660": {
+    "content_id": "6af98647-d54d-47fd-8f7f-e6091ca13660",
+    "creator_id": "ratelimit-test",
+    "text_length": 63,
+    "attribution": "likely_human",
+    "confidence": 0.848,
+    "label": "This content appears likely to be human-written. Our system found stronger signals of original human authorship, though automated detection is not perfect.",
+    "signals": {
+      "llm": {
+        "score": 0.0,
+        "reasoning": "The text is brief and lacks complexity, but its straightforward and purposeful nature suggests human authorship."
+      },
+      "stylometric": {
+        "score": 0.38,
+        "metrics": {
+          "type_token_ratio": 1.0,
+          "sentence_length_variance": 0,
+          "punctuation_density": 0.0,
+          "ai_phrase_hits": 0,
+          "vocab_score": 0.2,
+          "variance_score": 0.8,
+          "phrase_score": 0.0,
+          "punctuation_score": 0.3
+        }
+      },
+      "combined_score": 0.152
+    },
+    "status": "classified"
+  },
+  "70b0ed6f-14ff-46ac-bbeb-50f5e129b50e": {
+    "content_id": "70b0ed6f-14ff-46ac-bbeb-50f5e129b50e",
+    "creator_id": "ratelimit-test",
+    "text_length": 63,
+    "attribution": "likely_human",
+    "confidence": 0.848,
+    "label": "This content appears likely to be human-written. Our system found stronger signals of original human authorship, though automated detection is not perfect.",
+    "signals": {
+      "llm": {
+        "score": 0.0,
+        "reasoning": "The text is brief and lacks complexity, but its straightforward and purposeful nature suggests human authorship."
+      },
+      "stylometric": {
+        "score": 0.38,
+        "metrics": {
+          "type_token_ratio": 1.0,
+          "sentence_length_variance": 0,
+          "punctuation_density": 0.0,
+          "ai_phrase_hits": 0,
+          "vocab_score": 0.2,
+          "variance_score": 0.8,
+          "phrase_score": 0.0,
+          "punctuation_score": 0.3
+        }
+      },
+      "combined_score": 0.152
+    },
+    "status": "classified"
+  },
+  "317899f4-596d-4b54-9602-8fa10b1cd0e9": {
+    "content_id": "317899f4-596d-4b54-9602-8fa10b1cd0e9",
+    "creator_id": "ratelimit-test",
+    "text_length": 63,
+    "attribution": "likely_human",
+    "confidence": 0.848,
+    "label": "This content appears likely to be human-written. Our system found stronger signals of original human authorship, though automated detection is not perfect.",
+    "signals": {
+      "llm": {
+        "score": 0.0,
+        "reasoning": "The text is brief and lacks complexity, but its straightforward and purposeful nature suggests human authorship."
+      },
+      "stylometric": {
+        "score": 0.38,
+        "metrics": {
+          "type_token_ratio": 1.0,
+          "sentence_length_variance": 0,
+          "punctuation_density": 0.0,
+          "ai_phrase_hits": 0,
+          "vocab_score": 0.2,
+          "variance_score": 0.8,
+          "phrase_score": 0.0,
+          "punctuation_score": 0.3
+        }
+      },
+      "combined_score": 0.152
+    },
+    "status": "classified"
+  },
+  "5fa8c760-073c-43ee-8190-9bffdb98a92f": {
+    "content_id": "5fa8c760-073c-43ee-8190-9bffdb98a92f",
     "creator_id": "ratelimit-test",
     "text_length": 63,
     "attribution": "likely_human",
